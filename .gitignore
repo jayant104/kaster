@@ -1,0 +1,8 @@
+node_modules/
+.expo/
+.git/
+*.log
+android/
+ios/
+assets/models/model_int8.onnx
+!assets/models/model_int8.onnx.gz

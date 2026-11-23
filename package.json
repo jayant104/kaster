@@ -1,0 +1,35 @@
+{
+  "name": "smart-gallery-mobile",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo run:android",
+    "ios": "expo run:ios",
+    "web": "expo start --web",
+    "build:android": "eas build -p android --profile preview",
+    "build:apk": "eas build -p android --profile preview --local"
+  },
+  "dependencies": {
+    "@shopify/flash-list": "2.3.2",
+    "expo": "^58.0.0",
+    "expo-image": "~58.0.18",
+    "expo-media-library": "~58.0.14",
+    "expo-sqlite": "~58.0.18",
+    "expo-status-bar": "~58.0.5",
+    "lucide-react-native": "^0.469.0",
+    "react": "19.3.0",
+    "react-native": "0.88.1",
+    "react-native-gesture-handler": "~3.3.0",
+    "react-native-reanimated": "4.7.1",
+    "react-native-safe-area-context": "~5.11.1",
+    "react-native-svg": "^15.16.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.25.2",
+    "@types/react": "~19.3.0",
+    "babel-preset-expo": "^58.0.26",
+    "typescript": "^5.8.0"
+  },
+  "private": true
+}
